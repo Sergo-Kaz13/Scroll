@@ -1,5 +1,7 @@
 ![scroll](./scroll.png)
 
+### How to create a navigation bar on scroll
+
 ---
 
 #### Key concepts covered:
