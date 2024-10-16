@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 *,
 ::before,
 ::after {
@@ -36,6 +39,7 @@ body {
   position: fixed;
   width: 100%;
   background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .nav.fixed-nav .nav-menu-link {
@@ -230,6 +234,11 @@ body {
 }
 
 /* ------------media----------------- */
+@media screen and (min-width: 800px) {
+  .menu-container {
+    height: auto !important;
+  }
+}
 
 @media screen and (max-width: 800px) {
   .nav {
